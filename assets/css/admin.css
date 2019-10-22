@@ -1,0 +1,180 @@
+#adminmenu .wp-menu-image img {
+    padding: 7px 0 0 0;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.inner-panel table.form-table select{
+    width: 400px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    margin-left: 5px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.whpdf-panel .cols {
+    display: flex;
+}
+
+.whpdf-panel .inner-panel {
+    padding: 0 20px 30px 20px;
+    background-color: #FFF;
+    margin: 15px 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.1);
+}
+
+.whpdf-panel .inner-panel {
+    flex: 1;
+}
+
+.whpdf-panel .panel-wrapper{
+    padding: 5px 10px 0 10px;
+}
+
+.whpdf-panel input[type=text],
+.whpdf-panel textarea{
+    width: 300px;
+}
+
+.whpdf-panel table td select{
+    width: 300px;
+}
+
+.success {
+    background: #ecffeb;
+    border-color: #b0efac;
+    color: #4acc43;
+}
+
+.alert{
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    padding-top: 15px;
+}
+
+.alert p{
+    font-size: 15px;
+}
+
+.alert .alert_close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.whpdf_attach_email p{
+   margin-bottom: 10px; !important;
+}

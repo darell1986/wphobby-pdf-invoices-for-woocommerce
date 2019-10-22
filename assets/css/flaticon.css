@@ -1,0 +1,63 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/03/2019 18:45
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+
+
+.flaticon-favorite-heart-button:before { content: "\f100"; }
+.flaticon-like:before { content: "\f101"; }
+.flaticon-menu:before { content: "\f102"; }
+.flaticon-close:before { content: "\f103"; }
+.flaticon-vimeo:before { content: "\f104"; }
+.flaticon-facebook-letter-logo:before { content: "\f105"; }
+.flaticon-pinterest-logo:before { content: "\f106"; }
+.flaticon-youtube:before { content: "\f107"; }
+.flaticon-twitter:before { content: "\f108"; }
+.flaticon-paper-plane:before { content: "\f109"; }
+.flaticon-paper-bag:before { content: "\f10a"; }
+.flaticon-search:before { content: "\f10b"; }
+.flaticon-eye:before { content: "\f10c"; }
+.flaticon-instagram:before { content: "\f10d"; }
+.flaticon-avatar:before { content: "\f10e"; }
+.flaticon-right-arrow:before { content: "\f10f"; }
+.flaticon-right-arrow-1:before { content: "\f110"; }
+.flaticon-left-arrow:before { content: "\f111"; }
+.flaticon-left-arrow-1:before { content: "\f112"; }
+.flaticon-down-arrow:before { content: "\f113"; }
+.flaticon-up-arrow:before { content: "\f114"; }
+.flaticon-substract:before { content: "\f115"; }
+.flaticon-add:before { content: "\f116"; }
+.flaticon-google-plus-symbol:before { content: "\f117"; }
+.flaticon-left-arrow-2:before { content: "\f118"; }
+.flaticon-arrow-pointing-to-right:before { content: "\f119"; }
+.flaticon-linkedin-logo:before { content: "\f11a"; }
+.flaticon-tumblr-logo:before { content: "\f11b"; }
+
+
+
+
+
